@@ -13,7 +13,6 @@
     margin-left: 20px;
 }
 .row__poster{
-    /* keep aspect aspect-ratio: ; */
     object-fit: contain; 
     width: 100%;
     max-height: 100px;
@@ -23,6 +22,7 @@
 .row__poster:hover{
     transform: scale(1.08);
     opacity: 1;
+    
 }
 .row__poster_large:hover{
     transform: scale(1.08);
@@ -34,4 +34,5 @@
     max-height: 200px;
     margin-right: 10px;
     transition: transform 450ms;
+
 }

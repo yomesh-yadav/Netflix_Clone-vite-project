@@ -29,6 +29,7 @@ console.log(data);
                 className= {props.isLarge?'row__poster_large':'row__poster'}
                 key={e.id}
                 src= {`${baseUrl}${e.poster_path}`}
+                
             />
         ))}
         </div>
